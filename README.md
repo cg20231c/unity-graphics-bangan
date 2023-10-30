@@ -30,4 +30,16 @@ Unity uses a rendering pipeline to process and display 3D graphics. Unity offers
 Materials define how an object responds to light. Shaders are used to create complex materials by defining how the interact with light and shadows
 
 
+## Choosing a Lighting Technique
+### 1. Realtime Lighting 
+Realtime lighting is a technique in which lighting is computed on the fly ad the game runs. This includes all light sources that interact in real-time with objects and characters in the game. It involves direct lighting, dynamic shadows, and lighting effects that change over time
+
+Realtime lighting is well suited for games with a lot of changes in lighting, such as games with dynamic day night cycles or environment that change continuously. It is also suitable for VR or AR games that require real time interaction between lights and objects
+
+### 2. Baked Global Illumination (GI) Lighting
+Baked GI Lighting is a technique in which lighting is calculated before the game starts and stored in lightmaps. These lightmaps are used during gameplay and store information about how light interacts with objects in the environment
+
+Baked GI Lighting is very useful for games with relatively static lighting or infrequent changes. It can help reduce the computation load during gameplay, thus improving game performance
+
+
 
