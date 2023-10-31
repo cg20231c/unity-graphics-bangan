@@ -148,7 +148,7 @@ Reflection Source is a component used to specify an object or a specific area wi
 Reflection Probes are objects used to gathed environmental data from their surroundings and create a "cubemap" texture used to render reflections on objects that require them
 
 ## Ambient Lighting
-Ambient lighting refers to the even and indirect light that illuminates a scene without a specific light source
+Ambient lighting refers to the even and indirect light that illuminates a scene without a specific light source. Instead of being caused by individual light source, ambient lighting represents the overall, indirect light that fills a scene. It serve to provide a basic level of illumination to all objects, ensuring that they are not in complete darkness where direct light doesn't reach
 
 ## Light Types
 ### 1. Directional Lights
@@ -164,4 +164,7 @@ Spoitlights emit light in a cone-shaped direction and have a specific position a
 Area lights represent light sources with a physical size, such as rectangular or square light panels or emissive surface
 
 ## Emissive Materials
-Emissive Materials are used to make objects or surfaces within a scene appear as if they are generating their own light
+Emissive Materials are used to make objects or surfaces within a scene appear as if they are generating their own light. These materials emit light independently of any external light sources. When an object is assigned an emissive material, it gives the impression of glowing or radiating light, even in complete darkness or in the absence of othe light sources.
+
+## Light Probes
+Light Probes are used to capture and provide information about lighting in an environment, especially in areas that are not directly affected by real-time lights. Light Probes work by storing lighting data at various points in a scene, typically forming a grid or a network of points. These points act as representatives of the lighting conditions in the surrounding space. Light probes capture information about the color, intensity, and direction of light at their respective positions.
