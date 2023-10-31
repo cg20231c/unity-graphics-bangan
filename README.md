@@ -147,6 +147,11 @@ Reflection Source is a component used to specify an object or a specific area wi
 ### 2. Reflection Probes
 Reflection Probes are objects used to gathed environmental data from their surroundings and create a "cubemap" texture used to render reflections on objects that require them
 
+<img width="387" alt="image" src="https://github.com/cg20231c/unity-graphics-bangan/assets/109232320/125d5c9b-5056-46fb-99fe-5789285a27f1">
+
+Left : scene with default reflections
+Right : scene with probe reflections
+
 ## Ambient Lighting
 Ambient lighting refers to the even and indirect light that illuminates a scene without a specific light source. Instead of being caused by individual light source, ambient lighting represents the overall, indirect light that fills a scene. It serve to provide a basic level of illumination to all objects, ensuring that they are not in complete darkness where direct light doesn't reach
 
