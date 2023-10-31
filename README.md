@@ -149,3 +149,19 @@ Reflection Probes are objects used to gathed environmental data from their surro
 
 ## Ambient Lighting
 Ambient lighting refers to the even and indirect light that illuminates a scene without a specific light source
+
+## Light Types
+### 1. Directional Lights
+Directional Lights are used to simulate distant light sources, such as the sun. They emit light in a specific direction and have parallel light rays, making them suitable for outdoor scenes
+
+### 2. Point Lights
+Point lights emit light in all directions from a specific point in 3D space, similar to a light bulb. They create omnidirectional lighting
+
+### 3. Spotlights
+Spoitlights emit light in a cone-shaped direction and have a specific position and direction in the scene
+
+### 4. Area Lights
+Area lights represent light sources with a physical size, such as rectangular or square light panels or emissive surface
+
+## Emissive Materials
+Emissive Materials are used to make objects or surfaces within a scene appear as if they are generating their own light
