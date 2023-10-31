@@ -1,4 +1,3 @@
-![image](https://github.com/cg20231c/unity-graphics-bangan/assets/97864068/8ad487f2-d97a-4394-8cf7-784e60129637)# Lighting and Rendering
 
 ## Team Name
 
@@ -92,6 +91,7 @@ Besides picking a rendering path, you will also have to decide on a Color Space 
 - **Gamma Color Space**
 
   gamma color space refers to a color rendering and lighting model that approximates the way the human eye perceives brightness. It uses gamma correction to apply a nonlinear adjustment to colors, making it suitable for displaying images and colors on standard monitors and televisions. Gamma correction helps to maintain more accurate and visually pleasing color and lighting results in a variety of lighting conditions. Gamma color space is typically used when working with legacy content or older rendering pipelines that rely on gamma-corrected textures and shaders, but it has largely been replaced by the more physically accurate linear color space in modern Unity workflows, especially for high-quality graphics and rendering.
+
 
 ![image](https://github.com/cg20231c/unity-graphics-bangan/assets/97864068/94e13d9a-3ad5-443b-883b-c2385d71f5e7)
 
