@@ -140,3 +140,12 @@ in post process volume you can add effect what you wanto to make
 
 ![image](https://github.com/cg20231c/unity-graphics-bangan/assets/97864068/88c1b5e2-1804-447c-8ea8-f4a9ee46fcd8)
 
+## Reflection
+### 1. Reflection Source
+Reflection Source is a component used to specify an object or a specific area within the game that will emit reflections. It can be objects such as water, mirrors, or highly reflective materials like glass. The reflection source emits the necessary light information to create more accurate and realistic reflections.
+
+### 2. Reflection Probes
+Reflection Probes are objects used to gathed environmental data from their surroundings and create a "cubemap" texture used to render reflections on objects that require them
+
+## Ambient Lighting
+Ambient lighting refers to the even and indirect light that illuminates a scene without a specific light source
