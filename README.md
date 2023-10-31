@@ -149,27 +149,46 @@ Reflection Probes are objects used to gathed environmental data from their surro
 
 <img width="387" alt="image" src="https://github.com/cg20231c/unity-graphics-bangan/assets/109232320/125d5c9b-5056-46fb-99fe-5789285a27f1">
 
-Left : scene with default reflections
-Right : scene with probe reflections
+Left is scene with default reflections and Right is scene with probe reflections
 
 ## Ambient Lighting
 Ambient lighting refers to the even and indirect light that illuminates a scene without a specific light source. Instead of being caused by individual light source, ambient lighting represents the overall, indirect light that fills a scene. It serve to provide a basic level of illumination to all objects, ensuring that they are not in complete darkness where direct light doesn't reach
+
+<img width="387" alt="image" src="https://github.com/cg20231c/unity-graphics-bangan/assets/109232320/e9c4c09e-7b5b-48a6-a321-30c19fae2adc">
+
+Left is the scene with no light and Right is the scene with only ambient light
 
 ## Light Types
 ### 1. Directional Lights
 Directional Lights are used to simulate distant light sources, such as the sun. They emit light in a specific direction and have parallel light rays, making them suitable for outdoor scenes
 
+<img width="189" alt="image" src="https://github.com/cg20231c/unity-graphics-bangan/assets/109232320/515a18ca-4824-425f-900f-c1fa55983cb3">
+
 ### 2. Point Lights
 Point lights emit light in all directions from a specific point in 3D space, similar to a light bulb. They create omnidirectional lighting
+
+<img width="333" alt="image" src="https://github.com/cg20231c/unity-graphics-bangan/assets/109232320/0e9bbd83-bb8e-4896-bfb7-6a99e1522bbf">
 
 ### 3. Spotlights
 Spoitlights emit light in a cone-shaped direction and have a specific position and direction in the scene
 
+<img width="273" alt="image" src="https://github.com/cg20231c/unity-graphics-bangan/assets/109232320/b39d6d9d-8ad0-4c17-875b-23ccd2bc0692">
+
 ### 4. Area Lights
 Area lights represent light sources with a physical size, such as rectangular or square light panels or emissive surface
+
+<img width="382" alt="image" src="https://github.com/cg20231c/unity-graphics-bangan/assets/109232320/c37db261-982a-4fd3-ba34-c07b7d4ad2a2">
 
 ## Emissive Materials
 Emissive Materials are used to make objects or surfaces within a scene appear as if they are generating their own light. These materials emit light independently of any external light sources. When an object is assigned an emissive material, it gives the impression of glowing or radiating light, even in complete darkness or in the absence of othe light sources.
 
+<img width="348" alt="image" src="https://github.com/cg20231c/unity-graphics-bangan/assets/109232320/06bdabe0-ce22-4027-a0f5-05509d1f2eb8">
+
+A simple neon sign created using the Emission property of Unity's standard Shader
+
 ## Light Probes
 Light Probes are used to capture and provide information about lighting in an environment, especially in areas that are not directly affected by real-time lights. Light Probes work by storing lighting data at various points in a scene, typically forming a grid or a network of points. These points act as representatives of the lighting conditions in the surrounding space. Light probes capture information about the color, intensity, and direction of light at their respective positions.
+
+<img width="382" alt="image" src="https://github.com/cg20231c/unity-graphics-bangan/assets/109232320/6a324a0e-f30f-45c3-9785-2dd05471a99b">
+
+A scene using light probes
